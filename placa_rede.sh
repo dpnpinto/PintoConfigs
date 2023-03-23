@@ -18,3 +18,6 @@ dhcpcd "nome da inerface"
 # Ativar/desativar o serviço de shcp no arch
 sudo  systemctl enable/disable dhcpcd.servide
 # utilização do net clontrol "netctl" para criação de perfis
+# os perfis ficam guardados /etc/netctl
+# alteral hostname /etc/hostname
+sudo echo "novo_nome" > /etc/hostname
