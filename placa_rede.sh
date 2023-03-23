@@ -16,7 +16,7 @@ ip link set "nome da interface" down/up
 # pedir novo dhcp
 dhcpcd "nome da inerface"
 # Ativar/desativar o serviço de shcp no arch
-sudo  systemctl enable/disable dhcpcd.servide
+sudo  systemctl enable/disable dhcpcd.service
 # utilização do net clontrol "netctl" para criação de perfis
 # os perfis ficam guardados /etc/netctl
 # alterar hostname /etc/hostname
