@@ -9,7 +9,7 @@ loadkeys pt-latin1
 
 load kernel modules for tun and tap devices
 
-modeprobe tun taa
+modprobe tun tap
 
 create bridge
 
