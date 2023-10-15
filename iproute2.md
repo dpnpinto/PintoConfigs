@@ -15,11 +15,11 @@
 ***************
 * Transport   * LAER 4
 ***************
-* Network     * LAER 3
+* Network     * LAER 3 * Routing
 ***************
-* Data Link   * LAER 2
+* Data Link   * LAER 2 * VLAN, XVLAN, bridges
 ***************
-* Physical    * LAER 1
+* Physical    * LAER 1 * SWitch up an down
 ***************
 
 
