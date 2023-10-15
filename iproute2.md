@@ -15,11 +15,11 @@
 ***************
 * Transport   * LAER 4
 ***************
-* Network     * LAER 3 * Routing
+* Network     * LAER 3 * Routing, IPv4, IPv6
 ***************
-* Data Link   * LAER 2 * VLAN, XVLAN, bridges
+* Data Link   * LAER 2 * Links, VLAN, VXLAN, bridges, ARP, MAC, NDP, TUN, TAP
 ***************
-* Physical    * LAER 1 * SWitch up an down
+* Physical    * LAER 1 * 
 ***************
 
 
