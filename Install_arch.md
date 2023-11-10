@@ -75,7 +75,7 @@ arch-chroot /mnt (tudo o que é feito daqui para a frente é efetuado dentro já
 
 ## Configurar data e hora do nosso sistema operativo
 
-ln -sf /usr/share/zoneinfo/REgião/Cidade /etc/localtime
+ln -sf /usr/share/zoneinfo/Região/Cidade /etc/localtime
 
 
 
