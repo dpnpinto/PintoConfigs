@@ -1,4 +1,4 @@
-# How to Install Arch - After boot from the ISO
+8# How to Install Arch - After boot from the ISO
 
 ## Colocar o teclado em PT de Portugal
 loadkeys pt-latin1 
@@ -106,6 +106,7 @@ passwd nomedoutilizador (colocar palavra passe nesse utilizador)
 ## Instalar o GRUB (Boot Loader)
 
 dmesg | grep "EFI v" (verificar se o sistema arrancou com EFI)
+ls /sys/firmware/efi/efivars (outra forma se não existe não é EFI)
 
 ### Se for BIOS
 
