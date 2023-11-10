@@ -76,6 +76,6 @@ arch-chroot /mnt (tudo o que é feito daqui para a frente é efetuado dentro já
 ## Configurar data e hora do nosso sistema operativo
 
 ln -sf /usr/share/zoneinfo/Região/Cidade /etc/localtime
-
+Dos Açores é Atlantic/Azores - mais zonas em https://gist.github.com/alejzeis
 
 
