@@ -57,7 +57,7 @@ lsblk (caso seja necessário corrigir ou alterar voltar aos pontos anteriores)
 
 vim /etc/pacman.d/mirrorlist (se não tiver instalado instalar o editor ou utilizar outro)
 
-## Instalar o apcotes base do Arch
+## Instalar o pacotes base do Arch
 
 pacstrap /mnt base base-devel linux linux-firmware vim dhcpcdpac
 Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kernel Linux padrão do Arch, o firmware para hardware comum, o editor de texto “vim” e o dhcpcd
