@@ -43,7 +43,7 @@ PArtições do sistema mkfs.ext4 /dev/sda3 (indicar as partições)
 
 mount /dev/sda3 /mnt (partição e raiz do sistema)
 mkdir /mnt/home  (criar diretorio home)
-mkdir /mnt/boot (criar diretorio home)
+mkdir /mnt/boot (criar diretorio boot)
 mkdir /mnt/boot/efi (criar diretorio UEFI para o caso de utilizar UEFI)
 mount /dev/sda1 /mnt/boot (montado a partição boot)
 mount /dev/sda1 /mnt/boot/efi (montado a partição UEFI se for utilizar)
@@ -55,7 +55,7 @@ lsblk (caso seja necessário corrigir ou alterar voltar aos pontos anteriores)
 
 ## Otimizar os mirrows para descarregar os pacotes
 
-vim /etc/pacman.d/mirrorlist (se não tiver instalado instalar o editor ou utilizar outro)
+vim /etc/pacman.d/mirrorlist (se não tiver instalado o vim instalar o editor ou utilizar outro)
 
 ## Instalar o pacotes base do Arch
 
@@ -71,7 +71,7 @@ cat /mnt/etc/fstab
 
 ## O sistema está configurado vamos passar para dentro dele
 
-arch-chroot /mnt (tudo o que é feito daqui apa a frente é efetuado dentro já do sistema Arch iarchnstalado no disco)
+arch-chroot /mnt (tudo o que é feito daqui para a frente é efetuado dentro já do sistema Arch instalado no disco)
 
 ## Configurar data e hora do nosso sistema operativo
 
