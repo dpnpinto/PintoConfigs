@@ -34,3 +34,26 @@ Swap - Linux Swap
 Restantes partições - Linux filesystem
 
 ## Formatar partições
+
+Partição de boot - mkfs.fat -F32 /dev/sda1 (indicar partição selecionada)
+Fartição Swap - mkswap /dev/sda2 (indicar a partição selecionada)
+PArtições do sistema mkfs.ext4 /dev/sda3 (indicar as partições) 
+
+## Pontos de montagem  do sistema
+
+mount /dev/sda3 /mnt (partição e raiz do sistema)
+mkdir /mnt/home  (criar diretorio home)
+mkdir /mnt/boot (criar diretorio home)
+mkdir /mnt/boot/efi (criar diretorio UEFI para o caso de utilizar UEFI)
+mount /dev/sda1 /mnt/boot (montado a partição boot)
+mount /dev/sda1 /mnt/boot/efi (montado a partição UEFI se for utilizar)
+mount /dev/sda1 /mnt/boot/efi (Ativando a swap)
+
+## verificar como ficou o sistema de ficheiros
+
+lsblk (caso seja necessário corrigir ou alterar voltar aos pontos anteriores)
+
+## Otimizar os mirrows para descarregar os pacotes
+
+
+
