@@ -81,3 +81,16 @@ Zonas em https://gist.github.com/alejzeis
 No meu caso
 ln -sf /usr/share/zoneinfo/Atlantic/Azores /etc/localtime
 
+Sincronizar o relógio
+hwclock --systohc
+
+Conferir se a data ficou correta
+date
+
+## Alterar o idioma do sistema
+
+vim /etc/locale.gen ( tirar o # comentário do idioma pretendido pt_PT* )
+locale-gen (gerar o local tendo por base o ficheiro locale.gen)
+echo KEYMAP=pt-latin1 >> /etc/vconsole.conf (colocar o mapa de teclas correto na configuração da consola)
+
+
