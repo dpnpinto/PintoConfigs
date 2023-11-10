@@ -21,7 +21,7 @@ cfdisk /dev/discopretendido (criar as partições pretendidas)
 Recomenda-se o formato de tabela GPT
 
 Exemplo:
-/dev/sda1 (100MB para o /boot/efi)
+/dev/sda1 (100MB para o /boot e /boot/efi)
 /dev/sda2 (2GB para swap)
 /dev/sda3 (30GB para /)
 
@@ -29,7 +29,7 @@ Exemplo:
 
 Defenir os tipos das partições em type
 
-Para o GRUP - EFI System
+Para o GRUP - EFI System/BIOS boot (conforme o sistema que tem)
 Swap - Linux Swap
 Restantes partições - Linux filesystem
 
@@ -92,5 +92,32 @@ date
 vim /etc/locale.gen ( tirar o # comentário do idioma pretendido pt_PT* )
 locale-gen (gerar o local tendo por base o ficheiro locale.gen)
 echo KEYMAP=pt-latin1 >> /etc/vconsole.conf (colocar o mapa de teclas correto na configuração da consola)
+
+## Configurações gerais do novo sistema operativo
+
+vim /etc/hostname (colocar na primeira linha o nome do equipamento)
+passwd (mudar a palavra passe do utilizador root)
+
+### criar um novo utilizador
+
+useradd -m -g users -G wheel,storage,power -s /bin/bash nomedoutilizador
+passwd nomedoutilizador (colocar palavra passe nesse utilizador)
+
+## Instalar o GRUB (Boot Loader)
+
+dmesg | grep "EFI v" (verificar se o sistema arrancou com EFI)
+
+### Se for BIOS
+
+pacman -S grub (instlar o GRUB)
+grub-install --target=i386-pc --recheck /dev/sda1 (instalar o GRUB na partição de Boot)
+grub-mkconfig -o /boot/grub/grub.cfg (gerar a configuração GRUB)
+
+### Se for UEFI
+
+pacman -S grub efibootmgr (instalar o GRUB e o efibootmgr)
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch_grub --recheck (instalar o GRUB na pasta efi)
+grub-mkconfig -o /boot/grub/grub.cfg (gerar a configuração GRUB)
+
 
 
