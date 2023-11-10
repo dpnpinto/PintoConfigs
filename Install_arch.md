@@ -55,5 +55,27 @@ lsblk (caso seja necessário corrigir ou alterar voltar aos pontos anteriores)
 
 ## Otimizar os mirrows para descarregar os pacotes
 
+vim /etc/pacman.d/mirrorlist (se não tiver instalado instalar o editor ou utilizar outro)
+
+## Instalar o apcotes base do Arch
+
+pacstrap /mnt base base-devel linux linux-firmware vim dhcpcdpac
+Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kernel Linux padrão do Arch, o firmware para hardware comum, o editor de texto “vim” e o dhcpcd
+
+## Gerar a tabela de FSTAB
+
+Após instalar os pacotes essenciais é necessário gerar a tabela FSTAB, que vai dar a indicação ao sistema onde estão montadas cada uma das partiços.
+genfstab -U -p /nmt>>/nmt/etc/fstab
+pode depois evrificar se a tabela está correta
+cat /mnt/etc/fstab
+
+## O sistema está configurado vamos passar para dentro dele
+
+arch-chroot /mnt (tudo o que é feito daqui apa a frente é efetuado dentro já do sistema Arch iarchnstalado no disco)
+
+## Configurar data e hora do nosso sistema operativo
+
+ln -sf /usr/share/zoneinfo/REgião/Cidade /etc/localtime
+
 
 
