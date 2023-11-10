@@ -15,3 +15,22 @@ iwctl
 4º station nomedodispositivo connect nomedarede (por fim paraq se ligar à rede WIFI)
 
 ## Configuração do disco
+fdisk -l (listar todos os discos disponiveis)
+fdisk -l /dev/discopretendido (ver todas as partições no disco)
+cfdisk /dev/discopretendido (criar as partições pretendidas)
+Recomenda-se o formato de tabela GPT
+
+Exemplo:
+/dev/sda1 (100MB para o /boot/efi)
+/dev/sda2 (2GB para swap)
+/dev/sda3 (30GB para /)
+
+/dev/sda4 (todo o resto para o /home)
+
+Defenir os tipos das partições em type
+
+Para o GRUP - EFI System
+Swap - Linux Swap
+Restantes partições - Linux filesystem
+
+## Formatar partições
