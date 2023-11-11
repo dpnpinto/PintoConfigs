@@ -106,6 +106,10 @@ passwd (mudar a palavra passe do utilizador root)
 useradd -m -g users -G wheel,storage,power -s /bin/bash nomedoutilizador
 passwd nomedoutilizador (colocar palavra passe nesse utilizador)
 
+## Instalar pacotes uteis
+
+pacman -S dosfstools os-prober mtools network-manager-applet networkmanager wpa_supplicant wireless_tools dialog
+
 ## Instalar o GRUB (Boot Loader)
 
 dmesg | grep "EFI v" (verificar se o sistema arrancou com EFI)
