@@ -118,7 +118,7 @@ ls /sys/firmware/efi/efivars (outra forma se não existe não é EFI)
 ### Se for BIOS
 
 pacman -S grub (instlar o GRUB)
-grub-install --target=i386-pc --recheck /dev/sda1 (instalar o GRUB na partição de Boot)
+grub-install --target=i386-pc --recheck /dev/sda (instalar o GRUB)
 grub-mkconfig -o /boot/grub/grub.cfg (gerar a configuração GRUB)
 
 ### Se for UEFI
