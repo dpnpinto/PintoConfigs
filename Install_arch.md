@@ -29,6 +29,8 @@ Exemplo:
 
 Defenir os tipos das partições em type
 
+dmesg | grep "EFI v" (verificar se o sistema arrancou com EFI) ls /sys/firmware/efi/efivars (outra forma se não existe não é EFI)
+
 Para o GRUP - EFI System/BIOS boot (conforme o sistema que tem)
 Swap - Linux Swap
 Restantes partições - Linux filesystem
