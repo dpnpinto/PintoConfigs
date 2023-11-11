@@ -61,7 +61,8 @@ vim /etc/pacman.d/mirrorlist (se não tiver instalado o vim instalar o editor ou
 
 ## Instalar o pacotes base do Arch
 
-pacstrap /mnt base base-devel linux linux-firmware vim dhcpcdpac
+pacstrap /mnt base base-devel linux linux-firmware vim dhcpcd
+
 Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kernel Linux padrão do Arch, o firmware para hardware comum, o editor de texto “vim” e o dhcpcd
 
 ## Gerar a tabela de FSTAB
