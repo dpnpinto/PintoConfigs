@@ -68,8 +68,8 @@ Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kerne
 ## Gerar a tabela de FSTAB
 
 Após instalar os pacotes essenciais é necessário gerar a tabela FSTAB, que vai dar a indicação ao sistema onde estão montadas cada uma das partiços.
-genfstab -U -p /nmt>>/nmt/etc/fstab
-pode depois evrificar se a tabela está correta
+genfstab -U -p /mnt>>/mnt/etc/fstab
+pode depois verificar se a tabela está correta
 cat /mnt/etc/fstab
 
 ## O sistema está configurado vamos passar para dentro dele
