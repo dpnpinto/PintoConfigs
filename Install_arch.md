@@ -107,7 +107,7 @@ Conferir se a data ficou correta
 
 * **vim /etc/locale.gen** ( tirar o # comentário do idioma pretendido pt_PT* )
 * **locale-gen** (gerar o local tendo por base o ficheiro locale.gen)
-* **echo KEYMAP=pt-latin1 >> /etc/vconsoleLANG.conf** (colocar o mapa de teclas correto na configuração da consola)
+* **echo KEYMAP=pt-latin1 >> /etc/vconsole.conf** (colocar o mapa de teclas correto na configuração da consola)
 * **echo LANG=pt_PT.UTF-8 >> /etc/locale.conf** (defenir a variavel LANG adequadamente)
 
 ## Configurações gerais do novo sistema operativo
