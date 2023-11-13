@@ -143,6 +143,14 @@ Conferir se a data ficou correta
 
 ## Depois de arrancar
 
+### Arrancar com dhcp
+
 * **systemctl start dhcpcd.service**
 * **systemctl enable dhcpcd.service** Arrancar com o serviço de dhcp
 
+### Instalar Xorg
+
+* **sudo pacman -S xorg xorg-xinit**
+* **cp /etc/X11/xinit/xinitrc ~/.xinitrc** start do X e ambiente de janelas pretendido
+
+  
