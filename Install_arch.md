@@ -23,15 +23,18 @@
 *  Recomenda-se o formato de tabela **GPT**
 
 Exemplo:
-/dev/sda1 (100MB para o /boot e /boot/efi)
-/dev/sda2 (2GB para swap)
-/dev/sda3 (30GB para /)
+* /dev/sda1 (1G para o /boot e /boot/efi)
+* /dev/sda2 (2GB para swap)
+* /dev/sda3 (30GB para /, root)
 
-/dev/sda4 (todo o resto para o /home)
+Se pretendermos ter uma /home separado
+* /dev/sda4 (todo o resto para o /home)
 
 Defenir os tipos das partições em type
 
-dmesg | grep "EFI v" (verificar se o sistema arrancou com EFI) ls /sys/firmware/efi/efivars (outra forma se não existe não é EFI)
+verificar se o sistema arrancou com EFI
+* dmesg | grep "EFI v"
+* ls /sys/firmware/efi/efivars (outra forma de ver se arrancou por EFI)
 
 Para o GRUP - EFI System/BIOS boot (conforme o sistema que tem)
 Swap - Linux Swap
