@@ -17,10 +17,10 @@
 * station nomedodispositivo connect nomedarede (por fim paraq se ligar à rede WIFI)
 
 ## Configuração do disco
-**fdisk -l** (listar todos os discos disponiveis)
-**fdisk -l /dev/discopretendido** (ver todas as partições no disco)
-**cfdisk /dev/discopretendido** (criar as partições pretendidas)
-Recomenda-se o formato de tabela **GPT**
+* **fdisk -l** (listar todos os discos disponiveis)
+* **fdisk -l /dev/discopretendido** (ver todas as partições no disco)
+* **cfdisk /dev/discopretendido** (criar as partições pretendidas)
+*  Recomenda-se o formato de tabela **GPT**
 
 Exemplo:
 /dev/sda1 (100MB para o /boot e /boot/efi)
