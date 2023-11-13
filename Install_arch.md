@@ -9,6 +9,10 @@
 
 **ping www.google.com**
 
+## Acertar o relogio
+
+**timedatectl**
+
 ## se pretender utilizar o WIFI utilizar o iwctl
 **iwctl**
 * device list (para saber o nome do dispositivo)
@@ -41,9 +45,9 @@ Se pretendermos ter uma /home separado
 
 ## Formatar partições
 
-Partição de boot - mkfs.fat -F32 /dev/sda1 (indicar partição selecionada)
-Fartição Swap - mkswap /dev/sda2 (indicar a partição selecionada)
-PArtições do sistema mkfs.ext4 /dev/sda3 (indicar as partições) 
+* Partição de boot - **mkfs.fat -F32 /dev/sda1** (indicar partição selecionada)
+* Fartição Swap - **mkswap /dev/sda2** (indicar a partição selecionada)
+* Partições do sistema **mkfs.ext4 /dev/sda3** (indicar as partição) 
 
 ## Pontos de montagem  do sistema
 
@@ -57,15 +61,15 @@ swapon /dev/sda2 (Ativando a swap)
 
 ## verificar como ficou o sistema de ficheiros
 
-lsblk (caso seja necessário corrigir ou alterar voltar aos pontos anteriores)
+* **lsblk**ls (caso seja necessário corrigir ou alterar voltar aos pontos anteriores)
 
 ## Otimizar os mirrows para descarregar os pacotes
 
-vim /etc/pacman.d/mirrorlist (se não tiver instalado o vim instalar o editor ou utilizar outro)
+* **vim /etc/pacman.d/mirrorlist** (se não tiver instalado o vim instalar o editor ou utilizar outro)
 
 ## Instalar o pacotes base do Arch
 
-pacstrap /mnt base base-devel linux linux-firmware vim dhcpcd
+* **pacstrap /mnt base base-devel linux linux-firmware vim dhcpcd**
 
 Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kernel Linux padrão do Arch, o firmware para hardware comum, o editor de texto “vim” e o dhcpcd
 
