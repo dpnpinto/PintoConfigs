@@ -2,16 +2,16 @@
 
 ## Colocar o teclado em PT de Portugal
 
-**loadkeys pt-latin1** 
-* nota: o traço "-" no teclado em ingles é na tecla do apóstrofo "'"
+* **loadkeys pt-latin1** 
+nota: o traço "-" no teclado em ingles é na tecla do apóstrofo "'"
 
 ## Ver se tem internet
 
-**ping www.google.com**
+* **ping www.google.com**
 
 ## Acertar o relogio
 
-**timedatectl**
+* **timedatectl**
 
 ## se pretender utilizar o WIFI utilizar o iwctl
 **iwctl**
