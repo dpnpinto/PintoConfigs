@@ -55,7 +55,7 @@ Se pretendermos ter uma /home separado
 * **mkdir /mnt/home**  (criar diretorio home)
 * **mkdir /mnt/boot** (criar diretorio boot)
 * **mkdir /mnt/boot/efi** (criar diretorio UEFI para o caso de utilizar UEFI)
-* **mount /dev/sda1 /mnt/boot** (montado a partição boot)
+* **mount /dev/sda1 /mnt/boot** (montado a partição boot apenas para EFI em BIOS não montar partição)
 * **mount /dev/sda1 /mnt/boot/efi** (montado a partição UEFI se for utilizar)
 * **swapon /dev/sda2** (Ativando a swap)
 
@@ -88,7 +88,7 @@ pode depois verificar se a tabela está correta
 ## Configurar data e hora do nosso sistema operativo
 
 * **ln -sf /usr/share/zoneinfo/Região/Cidade /etc/localtime**
-* Zonas em /usr/share
+* Zonas em /usr/share (efetuar ls apra ver)
 
 No caso dos Açores
 
@@ -116,23 +116,23 @@ Conferir se a data ficou correta
 * **mkinitcpio -P** confirmar o ficheiro **/etc/mkinitcpio.conf** 
 ### criar um novo utilizador
 
-useradd -m -g users -G wheel,storage,power -s /bin/bash nomedoutilizador
-passwd nomedoutilizador (colocar palavra passe nesse utilizador)
+* **useradd -m -g users -G wheel,storage,power -s /bin/bash nomedoutilizador**
+* **passwd nomedoutilizador** (colocar palavra passe nesse utilizador)
 
 ## Instalar pacotes uteis
 
-pacman -S dosfstools os-prober mtools network-manager-applet networkmanager wpa_supplicant wireless_tools dialog
+* **pacman -S man dosfstools os-prober mtools network-manager-applet networkmanager wpa_supplicant wireless_tools dialog** 
 
 ## Instalar o GRUB (Boot Loader)
 
-dmesg | grep "EFI v" (verificar se o sistema arrancou com EFI)
-ls /sys/firmware/efi/efivars (outra forma se não existe não é EFI)
+* **dmesg | grep "EFI v"** (verificar se o sistema arrancou com EFI)
+* **ls /sys/firmware/efi/efivars** (outra forma se não existe não é EFI)
 
 ### Se for BIOS
 
-pacman -S grub (instlar o GRUB)
-grub-install --target=i386-pc --recheck /dev/sda (instalar o GRUB)
-grub-mkconfig -o /boot/grub/grub.cfg (gerar a configuração GRUB)
+* **pacman -S grub** (instalar o GRUB)
+* **grub-install --target=i386-pc --recheck /dev/sda** (instalar o GRUB)
+* **grub-mkconfig -o /boot/grub/grub.cfg** (gerar a configuração GRUB)
 
 ### Se for UEFI
 
