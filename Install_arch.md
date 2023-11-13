@@ -27,12 +27,7 @@ Exemplo:
 * /dev/sda2 (2GB para swap)
 * /dev/sda3 (30GB para /, root)
 
-Se pretendermos ter uma /home separado
-* /dev/sda4 (todo o resto para o /home)
-
-Defenir os tipos das partições em type
-
-verificar se o sistema arrancou com EFI
+verificar se tem sistema EFI ou BIOS
 * dmesg | grep "EFI v"
 * ls /sys/firmware/efi/efivars (outra forma de ver se arrancou por EFI)
 
@@ -40,6 +35,9 @@ Defenir os tipos de sistema de ficheiros
 * Para o GRUP - EFI System ou BIOS boot (conforme o sistema que tem)
 * Swap - Linux Swap
 * Restantes partições - Linux filesystem
+
+Se pretendermos ter uma /home separado
+* /dev/sda4 (todo o resto para o /home)
 
 ## Formatar partições
 
