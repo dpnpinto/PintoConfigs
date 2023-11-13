@@ -61,7 +61,7 @@ Se pretendermos ter uma /home separado
 
 ## verificar como ficou o sistema de ficheiros
 
-* **lsblk**ls (caso seja necessário corrigir ou alterar voltar aos pontos anteriores)
+* **lsblk** (caso seja necessário corrigir ou alterar voltar aos pontos anteriores)
 
 ## Otimizar os mirrows para descarregar os pacotes
 
