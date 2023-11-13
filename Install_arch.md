@@ -1,24 +1,25 @@
 8# How to Install Arch - After boot from the ISO
 
 ## Colocar o teclado em PT de Portugal
-loadkeys pt-latin1 
+**loadkeys pt-latin1** 
 nota: o traço "-" no teclado em ingles é na tecla do apóstrofo "'"
 
 ## Ver se tem internet
-ping www.google.com
+
+**ping www.google.com**load
 
 ## se pretender utilizar o WIFI utilizar o iwctl
-iwctl
+**iwctl**
 1º device list (para saber o nome do dispositivo)
 2º station nomedispositivo scan (ver as redes disponiveis)
 3º station nomedodispositivo get-network (listar as redes)
 4º station nomedodispositivo connect nomedarede (por fim paraq se ligar à rede WIFI)
 
 ## Configuração do disco
-fdisk -l (listar todos os discos disponiveis)
-fdisk -l /dev/discopretendido (ver todas as partições no disco)
-cfdisk /dev/discopretendido (criar as partições pretendidas)
-Recomenda-se o formato de tabela GPT
+**fdisk -l** (listar todos os discos disponiveis)
+**fdisk -l /dev/discopretendido** (ver todas as partições no disco)
+**cfdisk /dev/discopretendido** (criar as partições pretendidas)
+Recomenda-se o formato de tabela **GPT**
 
 Exemplo:
 /dev/sda1 (100MB para o /boot e /boot/efi)
