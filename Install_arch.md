@@ -36,9 +36,10 @@ verificar se o sistema arrancou com EFI
 * dmesg | grep "EFI v"
 * ls /sys/firmware/efi/efivars (outra forma de ver se arrancou por EFI)
 
-Para o GRUP - EFI System/BIOS boot (conforme o sistema que tem)
-Swap - Linux Swap
-Restantes partições - Linux filesystem
+Defenir os tipos de sistema de ficheiros
+* Para o GRUP - EFI System ou BIOS boot (conforme o sistema que tem)
+* Swap - Linux Swap
+* Restantes partições - Linux filesystem
 
 ## Formatar partições
 
