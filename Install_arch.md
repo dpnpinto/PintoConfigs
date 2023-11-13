@@ -141,5 +141,8 @@ Conferir se a data ficou correta
 * **grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch_grub --recheck** (instalar o GRUB na pasta efi)
 * **grub-mkconfig -o /boot/grub/grub.cfg** (gerar a configuração GRUB)
 
+## Depois de arrancar
 
+* **systemctl start dhcpcd.service**
+* **systemctl enable dhcpcd.service** Arrancar com o serviço de dhcp
 
