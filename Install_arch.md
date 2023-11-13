@@ -1,4 +1,4 @@
-8# How to Install Arch - After boot from the ISO
+# How to Install Arch - After boot from the ISO
 
 ## Colocar o teclado em PT de Portugal
 
@@ -87,14 +87,16 @@ pode depois verificar se a tabela está correta
 
 ## Configurar data e hora do nosso sistema operativo
 
-ln -sf /usr/share/zoneinfo/Região/Cidade /etc/localtime
-Zonas em https://gist.github.com/alejzeis
+* **ln -sf /usr/share/zoneinfo/Região/Cidade /etc/localtime**
+* Zonas em /usr/share
 
-No meu caso
-ln -sf /usr/share/zoneinfo/Atlantic/Azores /etc/localtime
+No caso dos Açores
+
+* **ln -sf /usr/share/zoneinfo/Atlantic/Azores /etc/localtime**
 
 Sincronizar o relógio
-hwclock --systohc
+
+* **hwclock --systohc*
 
 Conferir se a data ficou correta
 date
