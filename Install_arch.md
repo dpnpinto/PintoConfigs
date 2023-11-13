@@ -56,7 +56,7 @@ Se pretendermos ter uma /home separado
 * **mkdir /mnt/home**  (criar diretorio home)
 * **mkdir /mnt/boot** (criar diretorio boot)
 * **mkdir /mnt/boot/efi** (criar diretorio UEFI para o caso de utilizar UEFI)
-* **mount /dev/sda1 /mnt/boot** (montado a partição boot apenas para EFI em BIOS GPT blnão montar partição)
+* **mount /dev/sda1 /mnt/boot** (montado a partição boot apenas para EFI em BIOS GPT não montar partição)
 * **mount /dev/sda1 /mnt/boot/efi** (montado a partição UEFI se for utilizar)
 * **swapon /dev/sda2** (Ativando a swap)
 
