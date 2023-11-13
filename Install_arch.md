@@ -1,4 +1,4 @@
-t# How to Install Arch - After boot from the ISO
+# How to Install Arch - After boot from the ISO
 
 ## Colocar o teclado em PT de Portugal
 
