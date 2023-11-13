@@ -51,13 +51,13 @@ Se pretendermos ter uma /home separado
 
 ## Pontos de montagem  do sistema
 
-mount /dev/sda3 /mnt (partição e raiz do sistema)
-mkdir /mnt/home  (criar diretorio home)
-mkdir /mnt/boot (criar diretorio boot)
-mkdir /mnt/boot/efi (criar diretorio UEFI para o caso de utilizar UEFI)
-mount /dev/sda1 /mnt/boot (montado a partição boot)
-mount /dev/sda1 /mnt/boot/efi (montado a partição UEFI se for utilizar)
-swapon /dev/sda2 (Ativando a swap)
+* **mount /dev/sda3 /mnt** (partição e raiz do sistema)
+* **mkdir /mnt/home**  (criar diretorio home)
+* **mkdir /mnt/boot** (criar diretorio boot)
+* **mkdir /mnt/boot/efi** (criar diretorio UEFI para o caso de utilizar UEFI)
+* **mount /dev/sda1 /mnt/boot** (montado a partição boot)
+* **mount /dev/sda1 /mnt/boot/efi** (montado a partição UEFI se for utilizar)
+* **swapon /dev/sda2** (Ativando a swap)
 
 ## verificar como ficou o sistema de ficheiros
 
