@@ -76,13 +76,14 @@ Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kerne
 ## Gerar a tabela de FSTAB
 
 Após instalar os pacotes essenciais é necessário gerar a tabela FSTAB, que vai dar a indicação ao sistema onde estão montadas cada uma das partiços.
-genfstab -U -p /mnt>>/mnt/etc/fstab
+* **genfstab -U /mnt >> /mnt/etc/fstab**
+
 pode depois verificar se a tabela está correta
-cat /mnt/etc/fstab
+* **cat /mnt/etc/fstab**
 
 ## O sistema está configurado vamos passar para dentro dele
 
-arch-chroot /mnt (tudo o que é feito daqui para a frente é efetuado dentro já do sistema Arch instalado no disco)
+* **arch-chroot /mnt** (tudo o que é feito daqui para a frente é efetuado dentro já do sistema Arch instalado no disco)
 
 ## Configurar data e hora do nosso sistema operativo
 
