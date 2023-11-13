@@ -1,4 +1,4 @@
-# How to Install Arch - After boot from the ISO
+t# How to Install Arch - After boot from the ISO
 
 ## Colocar o teclado em PT de Portugal
 
@@ -55,7 +55,7 @@ Se pretendermos ter uma /home separado
 * **mkdir /mnt/home**  (criar diretorio home)
 * **mkdir /mnt/boot** (criar diretorio boot)
 * **mkdir /mnt/boot/efi** (criar diretorio UEFI para o caso de utilizar UEFI)
-* **mount /dev/sda1 /mnt/boot** (montado a partição boot apenas para EFI em BIOS não montar partição)
+* **mount /dev/sda1 /mnt/boot** (montado a partição boot apenas para EFI em BIOS GPT blnão montar partição)
 * **mount /dev/sda1 /mnt/boot/efi** (montado a partição UEFI se for utilizar)
 * **swapon /dev/sda2** (Ativando a swap)
 
@@ -136,9 +136,9 @@ Conferir se a data ficou correta
 
 ### Se for UEFI
 
-pacman -S grub efibootmgr (instalar o GRUB e o efibootmgr)
-grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch_grub --recheck (instalar o GRUB na pasta efi)
-grub-mkconfig -o /boot/grub/grub.cfg (gerar a configuração GRUB)
+* **pacman -S grub efibootmgr** (instalar o GRUB e o efibootmgr)
+* **grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch_grub --recheck** (instalar o GRUB na pasta efi)
+* **grub-mkconfig -o /boot/grub/grub.cfg** (gerar a configuração GRUB)
 
 
 
