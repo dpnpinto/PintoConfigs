@@ -25,6 +25,7 @@ nota: o traço "-" no teclado em ingles é na tecla do apóstrofo "'"
 * **fdisk -l /dev/discopretendido** (ver todas as partições no disco)
 * **cfdisk /dev/discopretendido** (criar as partições pretendidas)
 *  Recomenda-se o formato de tabela **GPT**
+*  lsblk (para ver como ficou os discos e as partições)
 
 Exemplo:
 * /dev/sda1 (1G para o /boot e /boot/efi)
