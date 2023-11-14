@@ -146,7 +146,7 @@ Conferir se a data ficou correta
 ### Arrancar com dhcp
 
 * **systemctl start dhcpcd.service**
-* **systemctl enable dhcpcd.service** Arrancar com o serviço de dhcp
+* **systemctl enable dhcpcd.service** ativar o serviço de dhcp
 
 ### Instalar Xorg
 
