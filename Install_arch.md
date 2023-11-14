@@ -89,7 +89,7 @@ pode depois verificar se a tabela está correta
 ## Configurar data e hora do nosso sistema operativo
 
 * **ln -sf /usr/share/zoneinfo/Região/Cidade /etc/localtime**
-* Zonas em /usr/share (efetuar ls apra ver)
+* Zonas em /usr/share (efetuar ls para ver)
 
 No caso dos Açores
 
