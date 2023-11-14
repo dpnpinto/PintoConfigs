@@ -150,6 +150,7 @@ Conferir se a data ficou correta
 
 ### Instalar Xorg
 
+* **lspci | grep -e VGA -e 3D** identificar a placa de video com o **lspci** e com a indentificação de padrões (-e) do **grep**
 * **sudo pacman -S xorg xorg-xinit**
 * **cp /etc/X11/xinit/xinitrc ~/.xinitrc** start do X e ambiente de janelas pretendido
 
