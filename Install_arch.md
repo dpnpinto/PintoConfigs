@@ -132,7 +132,7 @@ Conferir se a data ficou correta
 ### Se for BIOS
 
 * **pacman -S grub** (instalar o GRUB)
-* **grub-install --target=i386-pc --recheck /dev/sda** (instalar o GRUB)
+* **grub-install --target=i386-pc --recheck /dev/sda** (instalar o GRUB na partição Boot em fat 32)
 * **grub-mkconfig -o /boot/grub/grub.cfg** (gerar a configuração GRUB)
 
 ### Se for UEFI
