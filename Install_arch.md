@@ -70,8 +70,8 @@ Se pretendermos ter uma /home separado
 
 ## Instalar o pacotes base do Arch
 
-* **pacstrap /mnt base base-devel linux linux-firmware vim dhcpcd**
-
+* **pacstrap -K /mnt base base-devel linux linux-firmware vim dhcpcd**
+* -K inicia as chaves do pacman e não utiliza as do host de instalação
 Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kernel Linux padrão do Arch, o firmware para hardware comum, o editor de texto “vim” e o dhcpcd
 
 ## Gerar a tabela de FSTAB
