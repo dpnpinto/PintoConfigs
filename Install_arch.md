@@ -73,6 +73,14 @@ Se pretendermos ter uma /home separado
 * **pacstrap -K /mnt base base-devel linux linux-firmware vim dhcpcd**
 * -K inicia as chaves do pacman e não utiliza as do host de instalação
 Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kernel Linux padrão do Arch, o firmware para hardware comum, o editor de texto “vim” e o dhcpcd
+* Se necessário atualizar as chaves
+
+    pacman -Syy
+    pacman -S archlinux-keyring
+    pacman-key --populate archlinux
+    pacman-key --populate archlinux32 (apenas par o de 32 bit)  
+    pacman-key --refresh-keys
+
 
 ## Gerar a tabela de FSTAB
 
