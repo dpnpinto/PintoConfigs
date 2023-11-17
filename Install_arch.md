@@ -149,7 +149,7 @@ Conferir se a data ficou correta
 * **grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch_grub --recheck** (instalar o GRUB na pasta efi)
 * **grub-mkconfig -o /boot/grub/grub.cfg** (gerar a configuração GRUB)
 
-# Feita instalção base
+# Feita instalação base
 
 * **exit** (para sair do sistema instalado)
 * **umount** /mnt no live CD de instalação desmontar o /mnt que está no sda3
