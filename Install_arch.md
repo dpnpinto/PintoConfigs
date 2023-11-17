@@ -156,6 +156,12 @@ Conferir se a data ficou correta
 * tirar a pen/cd de arranque do Arch do computador e **reboot**
 ## Depois de arrancar
 
+## Dar permissões ao grupo wheel para executar comandos de administração
+
+* Entrar com root
+* **vim /etc/sudoers** editar o ficheiros e colocar o grupo wheel como permissões de utilizar todos os comandos
+* Sair do utilziador root e entrar com o utilziador definido
+
 ### Arrancar com dhcp
 
 * **systemctl start dhcpcd.service**
