@@ -166,6 +166,7 @@ Conferir se a data ficou correta
 
 * **sudo systemctl start dhcpcd.service**
 * **sudo systemctl enable dhcpcd.service** ativar o serviço de dhcp
+* **ip a** pode verificar se a placa de rede já tem a informação relativamente aos dados recolhidos pelo dhcp
 
 ### Instalar Xorg
 
