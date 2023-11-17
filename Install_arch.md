@@ -168,12 +168,6 @@ Conferir se a data ficou correta
 * **sudo systemctl enable dhcpcd.service** ativar o serviço de dhcp
 * **ip a** pode verificar se a placa de rede já tem a informação relativamente aos dados recolhidos pelo dhcp
 
-### Colocar todos os modulos de Hardware do kernel
-
-* **sudo pacman -S hwdetect** Instalar software para detetar o hardware automaticamente 
-* **sudo hwdetect  --show-modules
-* Este modulos devem ser adicionados 
-
 ### Instalar Xorg
 
 * **lspci | grep -e VGA -e 3D** identificar a placa de video com o **lspci** e com a indentificação de padrões (-e) do **grep**
