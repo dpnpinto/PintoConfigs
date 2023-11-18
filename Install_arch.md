@@ -73,7 +73,7 @@ Se pretendermos ter uma /home separado
 * **pacstrap -K /mnt base base-devel linux linux-firmware vim dhcpcd**
 * -K inicia as chaves do pacman e não utiliza as do host de instalação
 Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kernel Linux padrão do Arch, o firmware para hardware comum, o editor de texto “vim” e o dhcpcd
-* linux - instala o kernel estável (http://www.kernel.org). Pode-se instalar outro tipo o Zen Kernel (linux-zen)
+* linux - instala o kernel estável (http://www.kernel.org). Pode-se instalar outro tipo, por exemplo o Zen Kernel, com **linux-zen**.
 * Se necessário atualizar as chaves
 
     pacman -Syy
