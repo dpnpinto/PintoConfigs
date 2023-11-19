@@ -1,4 +1,4 @@
-# How to Install Arch - After boot from the ISO
+(# How to Install Arch - After boot from the ISO
 
 ## Colocar o teclado em PT de Portugal
 
@@ -36,7 +36,7 @@ verificar se tem sistema EFI ou BIOS
 * dmesg | grep "EFI v"
 * ls /sys/firmware/efi/efivars (outra forma de ver se arrancou por EFI)
 
-Defenir os tipos de sistema de ficheiros
+Definir os tipos de sistema de ficheiros
 * Para o GRUP - EFI System ou BIOS boot (conforme o sistema que tem)
 * Swap - Linux Swap
 * Restantes partições - Linux filesystem
@@ -67,6 +67,10 @@ Se pretendermos ter uma /home separado
 ## Otimizar os mirrows para descarregar os pacotes
 
 * **vim /etc/pacman.d/mirrorlist** (se não tiver instalado o vim instalar o editor ou utilizar outro)
+* De forma automatica
+   # pacman -Sy
+   # pacman -S reflector
+   # reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
 
 ## Instalar o pacotes base do Arch
 
