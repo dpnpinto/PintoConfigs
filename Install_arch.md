@@ -188,8 +188,8 @@ Conferir se a data ficou correta
 * O repositório Multilib permite a utilziação de aplicações 32 bit em sistemas 64 bit, por exemplo pelas aplicações Steam e Wine
 * Edicatar o ficheiro de configuração do pacman com **sudo vim /etc/pacman.conf**
 * Retirar os comentário **#** das linhas
-* [multilib]
-* Include = /etc/pacman.d/mirrorlist
+  - [multilib]
+  - Include = /etc/pacman.d/mirrorlist
 * Pode confirmar que já tem este repositório com **pacman -Sy**
   
 ### Instalar Xorg
