@@ -191,7 +191,13 @@ Conferir se a data ficou correta
   - [multilib]
   - Include = /etc/pacman.d/mirrorlist
 * Pode confirmar que já tem este repositório com **pacman -Sy**
-* Pode ver os pacotes do repositorio MultiLib com **pacman -Sl multilib** 
+* Pode ver os pacotes do repositorio MultiLib com **pacman -Sl multilib**
+
+### ATivar o TRIM nos discos SSD
+
+* Este serviço faz parte do pacote util-linux
+* Basta ativar o serviço de timer com **sudo systemctl enable fstrim.timer**
+* O serviço de fstrim será utilziado semanalmente
   
 ### Instalar Xorg
 
