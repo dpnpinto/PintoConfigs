@@ -213,7 +213,7 @@ automatizar o arranque de determinados serviços.
 [LightDM](https://wiki.archlinux.org/index.phpexit/LightDM) é um dos mais leves display managers.
 * **sudo pacman -S lightdm lightdm-gtk-greeter --needed**
 * **sudo systemctl enable lightdm**
-* **sudo vim /etc/lightdl.conf** Editar as configurações do LightDM
+* **sudo vim /etc/lightdm.conf** Editar as configurações do LightDM
 
 ### Instalar Xorg
 
