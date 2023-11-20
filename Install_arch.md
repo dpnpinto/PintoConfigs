@@ -166,6 +166,7 @@ Conferir se a data ficou correta
 
 * Entrar com root
 * **vim /etc/sudoers** editar o ficheiros e colocar o grupo wheel como permissões de utilizar todos os comandos
+* Esta linha **%wheel ALL=(ALL) ALL** dá acesso mas pedidos passwd
 * Sair do utilziador root e entrar com o utilziador definido
 
 ### Arrancar com dhcp
@@ -173,7 +174,13 @@ Conferir se a data ficou correta
 * **sudo systemctl start dhcpcd.service**
 * **sudo systemctl enable dhcpcd.service** ativar o serviço de dhcp
 * **ip a** pode verificar se a placa de rede já tem a informação relativamente aos dados recolhidos pelo dhcp
-* Instalar outros pacotes de software importantes **sudo pacman -S  
+* Instalar outros pacotes de software importantes **sudo pacman -S
+
+### ATivar o acesso por OpenSSH
+
+* Neste ponto ter cuidado se for um servidor disponivel na inetrnet. Por exemplo limitar o acesso ao utilizador root e ativar ssh apemas para alguns utilizadores ou grupos
+* **sudo pacman -S openssh** Instalar o serviço Open SSH. Normalmente já vem instlado o cliente para permitir acesso por ssh
+* ** sshd.service
 
 ### Instalar Xorg
 
