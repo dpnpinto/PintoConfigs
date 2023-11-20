@@ -183,10 +183,20 @@ Conferir se a data ficou correta
 * **systemctl start sshd.service**  Arrancar com o serviço
 * **systemctl enable sshd.service**  Ativar o serviço no arranque
 
+### Ativar o acesso ao repositorio Multilib
+
+* O repositório Multilib permite a utilziação de aplicações 32 bit em sistemas 64 bit, por exemplo pelas aplicações Steam e Wine
+* Edicatar o ficheiro de configuração do pacman com **sudo vim /etc/pacman.conf**
+* Retirar os comentário **#** das linhas
+* [multilib]
+* Include = /etc/pacman.d/mirrorlist
+* Pode confirmar que já tem este repositório com **pacman -Sy**
+  
 ### Instalar Xorg
 
 * **lspci | grep -e VGA -e 3D** identificar a placa de video com o **lspci** e com a indentificação de padrões (-e) do **grep**
 * **sudo pacman -S xorg xorg-xinit**
 * **cp /etc/X11/xinit/xinitrc ~/.xinitrc** start do X e ambiente de janelas pretendido
+
 
   
