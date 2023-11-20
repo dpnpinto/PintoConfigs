@@ -180,7 +180,8 @@ Conferir se a data ficou correta
 
 * Neste ponto ter cuidado se for um servidor disponivel na inetrnet. Por exemplo limitar o acesso ao utilizador root e ativar ssh apemas para alguns utilizadores ou grupos
 * **sudo pacman -S openssh** Instalar o serviço Open SSH. Normalmente já vem instlado o cliente para permitir acesso por ssh
-* ** sshd.service
+* **systemctl start sshd.service**  Arrancar com o serviço
+* **systemctl enable sshd.service**  Ativar o serviço no arranque
 
 ### Instalar Xorg
 
