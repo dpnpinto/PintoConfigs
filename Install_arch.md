@@ -176,7 +176,7 @@ Conferir se a data ficou correta
 * **ip a** pode verificar se a placa de rede já tem a informação relativamente aos dados recolhidos pelo dhcp
 * Instalar outros pacotes de software importantes **sudo pacman -S
 
-### Ativar o acesso por OpenSSH
+### Ativar o acesso remoto por OpenSSH
 
 * Neste ponto ter cuidado se for um servidor disponivel na inetrnet. Por exemplo limitar o acesso ao utilizador root e ativar ssh apemas para alguns utilizadores ou grupos
 * **sudo pacman -S openssh** Instalar o serviço Open SSH. Normalmente já vem instlado o cliente para permitir acesso por ssh
