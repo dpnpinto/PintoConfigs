@@ -158,6 +158,7 @@ Conferir se a data ficou correta
 
 * **exit** (para sair do sistema instalado)
 * **umount** /mnt no live CD de instalação desmontar o /mnt que está no sda3
+* **swapoff /dev/sda2** desligar a swap
 * tirar a pen/cd de arranque do Arch do computador e **reboot**
 ## Depois de arrancar
 
@@ -172,6 +173,7 @@ Conferir se a data ficou correta
 * **sudo systemctl start dhcpcd.service**
 * **sudo systemctl enable dhcpcd.service** ativar o serviço de dhcp
 * **ip a** pode verificar se a placa de rede já tem a informação relativamente aos dados recolhidos pelo dhcp
+* Instalar outros pacotes de software importantes **sudo pacman -S  
 
 ### Instalar Xorg
 
