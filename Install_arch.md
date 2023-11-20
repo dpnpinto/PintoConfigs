@@ -198,7 +198,23 @@ Conferir se a data ficou correta
 * Este serviço faz parte do pacote util-linux
 * Basta ativar o serviço de timer com **sudo systemctl enable fstrim.timer**
 * O serviço de fstrim será utilziado semanalmente
-  
+
+## Instalar o ambiente grafico (GUI) eu gosto do i3
+
+### Instlar o ambiente grafico I3
+
+* **sudo pacman -S xorg-server xorg-apps xorg-xinit** Instalr o servidor grafico xorg.server e os pacotes do xorg-apps e o xorg-xinit
+* **sudo pacman -S i3-wm**
+
+### Instalar o display manager
+
+O display manager permite-nos entrar no sistema de forma gráfica e também
+automatizar o arranque de determinados serviços.
+[LightDM](https://wiki.archlinux.org/index.phpexit/LightDM) é um dos mais leves display managers.
+* **sudo pacman -S lightdm lightdm-gtk-greeter --needed**
+* **sudo systemctl enable lightdm**
+* **sudo vim /etc/lightdl.conf** Editar as configurações do LightDM
+
 ### Instalar Xorg
 
 * **lspci | grep -e VGA -e 3D** identificar a placa de video com o **lspci** e com a indentificação de padrões (-e) do **grep**
