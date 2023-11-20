@@ -191,6 +191,7 @@ Conferir se a data ficou correta
   - [multilib]
   - Include = /etc/pacman.d/mirrorlist
 * Pode confirmar que já tem este repositório com **pacman -Sy**
+* Pode ver os apcotes do repositorio MultiLib com **pacman -Sl multilib** 
   
 ### Instalar Xorg
 
