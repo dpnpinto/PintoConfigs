@@ -201,12 +201,14 @@ Conferir se a data ficou correta
 
 ## Instalar o ambiente grafico (GUI)
 
-### Instalar o Windows Manager I3
+### Instalar X Window System Xorg
 
-* **sudo pacman -S xorg-server xorg-apps xorg-xinit** Instalr o servidor grafico xorg.server e os pacotes do xorg-apps e o xorg-xinit
-* **sudo pacman -S i3-wm**
-* **i3-config-wizard**
-
+* **lspci | grep -e VGA -e 3D** identificar a placa de video com o **lspci** e com a indentificação de padrões (-e) do **grep**
+* **sudo pacman -S xorg xorg-xinit**
+* **cp /etc/X11/xinit/xinitrc ~/.xinitrc** start do X e ambiente de janelas pretendido
+* No VirtualBox
+ - sudo pacman -S xorg virtualbox-guest-utils
+   
 ### Instalar o Display Manager LightDM
 
 O display manager permite-nos entrar no sistema de forma gráfica e também
@@ -216,11 +218,13 @@ automatizar o arranque de determinados serviços.
 * **sudo systemctl enable lightdm**
 * **sudo vim /etc/lightdm.conf** Editar as configurações do LightDM
 
-### Instalar X Window System Xorg
+### Instalar o Windows Manager I3
 
-* **lspci | grep -e VGA -e 3D** identificar a placa de video com o **lspci** e com a indentificação de padrões (-e) do **grep**
-* **sudo pacman -S xorg xorg-xinit**
-* **cp /etc/X11/xinit/xinitrc ~/.xinitrc** start do X e ambiente de janelas pretendido
+* **sudo pacman -S xorg-server xorg-apps xorg-xinit** Instalr o servidor grafico xorg.server e os pacotes do xorg-apps e o xorg-xinit
+* **sudo pacman -S i3-wm**
+* **i3-config-wizard**
+
+
 
 ### Intalar o Aplication Launcher Rofi
 
