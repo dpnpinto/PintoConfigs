@@ -1,4 +1,4 @@
-# How to make a basic i3-wm Arch Install - After boot from the ISO
+# How to make a basic i3-wm Arch Install - After boot from the focial Arch ISO
 
 ## Consultar sempre a Arch Wiki para confirmação das opção disponiveis
 
