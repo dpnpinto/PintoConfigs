@@ -1,4 +1,4 @@
-(# How to Install Arch - After boot from the ISO
+v How to Install Arch - After boot from the ISO
 
 ## Colocar o teclado em PT de Portugal
 
@@ -205,6 +205,7 @@ Conferir se a data ficou correta
 
 * **sudo pacman -S xorg-server xorg-apps xorg-xinit** Instalr o servidor grafico xorg.server e os pacotes do xorg-apps e o xorg-xinit
 * **sudo pacman -S i3-wm**
+* **i3-config-wizard**
 
 ### Instalar o display manager
 
