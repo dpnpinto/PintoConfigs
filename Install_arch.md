@@ -1,4 +1,4 @@
-v How to Install Arch - After boot from the ISO
+# How to make a basic i3-wm Arch Install - After boot from the ISO
 
 ## Colocar o teclado em PT de Portugal
 
