@@ -223,7 +223,7 @@ automatizar o arranque de determinados serviços.
   greeter-session=lightdm-gtk-greeter
   ...
 
-### Instalar ToolBAr Polybar
+### Instalar ToolBar Polybar
 
 * **sudo pacman -S polybar** Instalr a Polybar
 * **mkdir .config/polybar** criar pasta de configuração da barra
