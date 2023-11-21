@@ -216,11 +216,11 @@ automatizar o arranque de determinados serviços.
 [LightDM](https://wiki.archlinux.org/index.phpexit/LightDM) é um dos mais leves display managers.
 * **sudo pacman -S lightdm lightdm-gtk-greeter --needed**
 * **sudo systemctl enable lightdm**
-* **sudo vim /etc/lightdm\lightdm.conf** Editar as configurações do LightDM
+* **sudo vim /etc/lightdm/lightdm.conf** Editar as configurações do LightDM
 * Colocar o Greeter:
   - [Seat:*]
   ...
-  greeter-session=lightdm-yourgreeter-greeter
+  greeter-session=lightdm-gtk-greeter
   ...
 
 ### Instalar o Windows Manager I3
