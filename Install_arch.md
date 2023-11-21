@@ -235,7 +235,7 @@ automatizar o arranque de determinados serviços.
 
 ### Intalar o emulador de terminal Kitty
 
-* **sudo pacman -S kitty**  instlar o emulador de terminal kitty
+* **sudo pacman -S kitty**  instalar o emulador de terminal kitty
   
 ### Instalar o Windows Manager i3 (ultima versão já tem o i3 gaps)
 
