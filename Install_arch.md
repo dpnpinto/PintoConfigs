@@ -199,15 +199,15 @@ Conferir se a data ficou correta
 * Basta ativar o serviço de timer com **sudo systemctl enable fstrim.timer**
 * O serviço de fstrim será utilziado semanalmente
 
-## Instalar o ambiente grafico (GUI) eu gosto do i3
+## Instalar o ambiente grafico (GUI)
 
-### Instlar o ambiente grafico I3
+### Instalar o Windows Manager I3
 
 * **sudo pacman -S xorg-server xorg-apps xorg-xinit** Instalr o servidor grafico xorg.server e os pacotes do xorg-apps e o xorg-xinit
 * **sudo pacman -S i3-wm**
 * **i3-config-wizard**
 
-### Instalar o display manager
+### Instalar o Display Manager LightDM
 
 O display manager permite-nos entrar no sistema de forma gráfica e também
 automatizar o arranque de determinados serviços.
@@ -216,11 +216,14 @@ automatizar o arranque de determinados serviços.
 * **sudo systemctl enable lightdm**
 * **sudo vim /etc/lightdm.conf** Editar as configurações do LightDM
 
-### Instalar Xorg
+### Instalar X Window System Xorg
 
 * **lspci | grep -e VGA -e 3D** identificar a placa de video com o **lspci** e com a indentificação de padrões (-e) do **grep**
 * **sudo pacman -S xorg xorg-xinit**
 * **cp /etc/X11/xinit/xinitrc ~/.xinitrc** start do X e ambiente de janelas pretendido
 
+### Intalar o Aplication Launcher Rofi
+
+### Intalar o Terminal Kitty
 
   
