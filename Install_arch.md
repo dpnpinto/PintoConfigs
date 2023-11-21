@@ -229,7 +229,7 @@ automatizar o arranque de determinados serviços.
 * **mkdir .config/polybar** criar pasta de configuração da barra
 * **sudo cp /etc/polybar/config.ini** copiar um ficheiro de exemplo ou colocar o seu
   
-### Instalar o Windows Manager I3
+### Instalar o Windows Manager i3 (ultima versão já tem o i3 gaps)
 
 * **sudo pacman -S xorg-server xorg-apps xorg-xinit** Instalr o servidor grafico xorg.server e os pacotes do xorg-apps e o xorg-xinit
 * **sudo pacman -S i3-wm**
