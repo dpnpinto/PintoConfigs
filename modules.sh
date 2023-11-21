@@ -6,3 +6,5 @@ for hw in $(hwdetect --show-modules | awk -F: '{gsub("-","_"); print $2}'); do
         printf '%s\n' "$hw";
     fi
 done
+
+mkinitcpio -P
