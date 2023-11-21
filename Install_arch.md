@@ -223,6 +223,12 @@ automatizar o arranque de determinados serviços.
   greeter-session=lightdm-gtk-greeter
   ...
 
+### Instalar ToolBAr Polybar
+
+* **sudo pacman -S polybar** Instalr a Polybar
+* **mkdir .config/polybar** criar pasta de configuração da barra
+* **sudo cp /etc/polybar/config.ini** copiar um ficheiro de exemplo ou colocar o seu
+  
 ### Instalar o Windows Manager I3
 
 * **sudo pacman -S xorg-server xorg-apps xorg-xinit** Instalr o servidor grafico xorg.server e os pacotes do xorg-apps e o xorg-xinit
