@@ -1,6 +1,6 @@
 # How to make a basic i3-wm Arch Install - After boot from the ISO
 
-## Consulatr sempre a Ahch Wiki para confirmação das opção disponiveis
+## Consultar sempre a Arch Wiki para confirmação das opção disponiveis
 
  * https://wiki.archlinux.org/
 
