@@ -214,9 +214,14 @@ Conferir se a data ficou correta
 O display manager permite-nos entrar no sistema de forma gráfica e também
 automatizar o arranque de determinados serviços.
 [LightDM](https://wiki.archlinux.org/index.phpexit/LightDM) é um dos mais leves display managers.
-* **sudo pacman -S lightdm lightdm-webkit2-greeter --needed**
+* **sudo pacman -S lightdm lightdm-gtk-greeter --needed**
 * **sudo systemctl enable lightdm**
 * **sudo vim /etc/lightdm\lightdm.conf** Editar as configurações do LightDM
+* Colocar o Greeter:
+  - [Seat:*]
+  ...
+  greeter-session=lightdm-yourgreeter-greeter
+  ...
 
 ### Instalar o Windows Manager I3
 
