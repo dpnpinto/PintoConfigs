@@ -228,6 +228,14 @@ automatizar o arranque de determinados serviços.
 * **sudo pacman -S polybar** Instalr a Polybar
 * **mkdir .config/polybar** criar pasta de configuração da barra
 * **sudo cp /etc/polybar/config.ini** copiar um ficheiro de exemplo ou colocar o seu
+
+### Intalar o Aplication Launcher Rofi
+
+* **sudo pacman -S rofi** Instalar o Rofi
+
+### Intalar o emulador de terminal Kitty
+
+* ""sudo pacman -S kitty**  instlar o emulador de terminal kitty
   
 ### Instalar o Windows Manager i3 (ultima versão já tem o i3 gaps)
 
@@ -237,8 +245,6 @@ automatizar o arranque de determinados serviços.
 
 
 
-### Intalar o Aplication Launcher Rofi
 
-### Intalar o Terminal Kitty
 
   
