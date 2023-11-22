@@ -1,4 +1,23 @@
 # How to make a basic i3-wm Arch Install - After boot from the oficial Arch ISO
+                   -`                    
+                  .o+`                  
+                 `ooo/    DPINTO           
+                `+oooo:   ARCH Geek            
+               `+oooooo:                 
+               -+oooooo+:                
+             `/:-:++oooo+:               
+            `/++++/+++++++:              
+           `/++++++++++++++:             
+          `/+++ooooooooooooo/`           
+         ./ooosssso++osssssso+`          
+        .oossssso-````/ossssss+`         
+       -osssssso./     :ssssssso.        
+      :osssssss/ ///\\\ osssso+++.       
+     /ossssssss//^   ^| +ssssooo/-       
+   `/ossssso+/:-|()-()| -:/+osssso+-
+  `+sso+:-`     |  ~  |     `.-/+oso:                      
+ `++:.           \ U /           `-/+/                          
+ .`               | |\              `/
 
 ## Consultar sempre a Arch Wiki para confirmação das opção disponiveis
 
