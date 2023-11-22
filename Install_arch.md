@@ -145,6 +145,7 @@ Conferir se a data ficou correta
 ## Instalar pacotes uteis
 
 * **pacman -S man dosfstools os-prober mtools network-manager-applet networkmanager wpa_supplicant wireless_tools dialog** 
+* Ativar networkmanager ** sudo systemctl enable NetworkManager.service**
 
 ## Instalar o GRUB (Boot Loader)
 
