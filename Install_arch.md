@@ -220,9 +220,9 @@ Conferir se a data ficou correta
 
 * no ficheiro **.bash_profile** (perfil do utilizador) arrancar automaticamente o xorg com **startx**
   ...
-   if [ -z "$(DISPLAY)" ] && [ "$(XDG_VTMR)" -eq 1 ] ; then
-            exec startx
-   fi
+   * if [ -z "$(DISPLAY)" ] && [ "$(XDG_VTMR)" -eq 1 ] ; then
+   *         exec startx
+   * fi
   ...
 ### Instalar o Display Manager LightDM
 
