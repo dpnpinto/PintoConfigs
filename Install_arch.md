@@ -19,6 +19,9 @@
  `++:.           \ U /           `-/+/                          
  .`               | |\              `/
 
+
+
+
 ## Consultar sempre a Arch Wiki para confirmação das opção disponiveis
 
  * https://wiki.archlinux.org/
