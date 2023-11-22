@@ -209,10 +209,19 @@ Conferir se a data ficou correta
 
 * **lspci | grep -e VGA -e 3D** identificar a placa de video com o **lspci** e com a indentificação de padrões (-e) do **grep**
 * **sudo pacman -S xorg xorg-xinit**
+* xorg - ambiente gráfico
+* xorg-xinit - para arrancar o ambiente grafico **startx** recorrendo ao ficheiro .xinitrc 
 * **cp /etc/X11/xinit/xinitrc ~/.xinitrc** start do X e ambiente de janelas pretendido
+* 
 * No VirtualBox
  - sudo pacman -S xorg virtualbox-guest-utils
-   
+
+### Não é necessário ter um display manager para arrancar com o ambiente gráfico
+
+* no ficheiro **.bash_profile** (perfil do utilizador) arrancar automaticamente o xorg com **startx**
+  - if [ -z "$(DISPLAY)" ] && [ "$(XDG_VTMR)" -eq 1 ] ; then
+  -          exec startx
+  - fi
 ### Instalar o Display Manager LightDM
 
 O display manager permite-nos entrar no sistema de forma gráfica e também
