@@ -219,9 +219,9 @@ Conferir se a data ficou correta
 ### Não é necessário ter um display manager para arrancar com o ambiente gráfico
 
 * no ficheiro **.bash_profile** (perfil do utilizador) arrancar automaticamente o xorg com **startx**
-  - if [ -z "$(DISPLAY)" ] && [ "$(XDG_VTMR)" -eq 1 ] ; then
-  -          exec startx
-  - fi
+   if [ -z "$(DISPLAY)" ] && [ "$(XDG_VTMR)" -eq 1 ] ; then
+            exec startx
+   fi
 ### Instalar o Display Manager LightDM
 
 O display manager permite-nos entrar no sistema de forma gráfica e também
