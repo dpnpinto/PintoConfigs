@@ -11,8 +11,11 @@
 
 ## Colocar o teclado em PT de Portugal
 
+* Para encontrar os mapas de teclas **localectl list-keymaps | grep pt**
 * **loadkeys pt-latin1** 
 nota: o traço "-" no teclado em ingles é na tecla do apóstrofo "'"
+* Aumentar o tamanho da fonte, para verem melhor, **setfont ter-132n**
+* 
 
 ## Ver se tem internet
 
@@ -83,10 +86,11 @@ Se pretendermos ter uma /home separado
 
 ## Instalar o pacotes base do Arch
 
-* **pacstrap -K /mnt base base-devel linux linux-firmware vim dhcpcd**
+* **pacstrap -K /mnt base base-devel linux linux-firmware vim dhcpcd xpto-ucode**
 * -K inicia as chaves do pacman e não utiliza as do host de instalação
 Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kernel Linux padrão do Arch, o firmware para hardware comum, o editor de texto “vim” e o dhcpcd
 * linux - instala o kernel estável (http://www.kernel.org). Pode-se instalar outro tipo, por exemplo o Zen Kernel, com **linux-zen**.
+* xpto-ucode intel-ucode/amd-ucode - atualziações de estabilidade e segurança da Intel/AMD 
 * Se necessário atualizar as chaves
 
     pacman -Syy
