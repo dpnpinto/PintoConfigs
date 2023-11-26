@@ -1,4 +1,4 @@
-# How to make a basic i3-wm Arch Install - After boot from the oficial Arch ISO
+# How to make a basic spectr-wm Arch Install - After boot from the oficial Arch ISO
 
  	 /^   ^|   DPINTO
 	 |()-()|   ARCH
