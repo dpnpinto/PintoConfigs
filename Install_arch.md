@@ -115,6 +115,7 @@ pode depois verificar se a tabela está correta
 
 * **ln -sf /usr/share/zoneinfo/Região/Cidade /etc/localtime**
 * Zonas em /usr/share (efetuar ls para ver)
+* Também pode utilizar **timedatectl list-timezones | grep Azores**
 
 No caso dos Açores
 
@@ -219,11 +220,10 @@ Conferir se a data ficou correta
 * **lspci | grep -e VGA -e 3D** identificar a placa de video com o **lspci** e com a indentificação de padrões (-e) do **grep**
 * **sudo pacman -S xorg xorg-xinit**
 * xorg - ambiente gráfico
-* xorg-xinit - para arrancar o ambiente grafico **startx** recorrendo ao ficheiro .xinitrc 
+* xorg-xinit - para arrancar o ambiente grafico **startx** recorrendo ao ficheiro .xinitrc
+* No caso do Virtuabox instalar **sudo pacman -S virtualbox-guest-utils open-vm-tools xf86-video-vmware**
 * **cp /etc/X11/xinit/xinitrc ~/.xinitrc** start do X e ambiente de janelas pretendido
-* 
-* No VirtualBox
- - sudo pacman -S xorg virtualbox-guest-utils
+
 
 ### Não é necessário ter um display manager para arrancar com o ambiente gráfico
 
@@ -267,8 +267,3 @@ automatizar o arranque de determinados serviços.
 * **sudo pacman -S i3-wm**
 * **i3-config-wizard**
 
-
-
-
-
-  
