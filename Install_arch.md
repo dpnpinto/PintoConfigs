@@ -22,7 +22,7 @@ nota: o traço "-" no teclado em ingles é na tecla do apóstrofo "'"
 
 ## Acertar o relogio
 
-* **timedatectl set ntp=true**
+* **timedatectl set-ntp true**
 
 ## se pretender utilizar o WIFI utilizar o iwctl
 **iwctl**
