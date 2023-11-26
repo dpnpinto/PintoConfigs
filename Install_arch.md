@@ -15,7 +15,6 @@
 * **loadkeys pt-latin1** 
 nota: o traço "-" no teclado em ingles é na tecla do apóstrofo "'"
 * Aumentar o tamanho da fonte, para verem melhor, **setfont ter-132n**
-* 
 
 ## Ver se tem internet
 
