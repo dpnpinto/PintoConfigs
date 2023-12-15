@@ -156,6 +156,8 @@ Conferir se a data ficou correta
 * **pacman -S man dosfstools os-prober mtools network-manager-applet networkmanager wpa_supplicant wireless_tools dialog** 
 * Ativar networkmanager ** sudo systemctl enable NetworkManager.service**
 
+* systemctl list-unit-files --state=enabled
+
 ## Instalar o GRUB (Boot Loader)
 
 * **dmesg | grep "EFI v"** (verificar se o sistema arrancou com EFI)
