@@ -8,6 +8,7 @@
 ## Consultar sempre a Arch Wiki para confirmação das opção disponiveis
 
  * https://wiki.archlinux.org/
+ * https://www.youtube.com/watch?v=rUEnS1zj1DM - Exemplo
 
 ## Colocar o teclado em PT de Portugal
 
