@@ -101,6 +101,8 @@ Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kerne
     - Desativar a verificação (Arch32) colocar 'SigLevel = Never' em /etc/pacman.conf 
 
 
+* systemctl list-unit-files --state=enabled
+
 ## Gerar a tabela de FSTAB
 
 Após instalar os pacotes essenciais é necessário gerar a tabela FSTAB, que vai dar a indicação ao sistema onde estão montadas cada uma das partições.
