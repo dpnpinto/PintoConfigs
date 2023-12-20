@@ -2,7 +2,7 @@
 # ~/.bashrc
 #
 # If not running interactively, don't do anything
-export term=kitty
+export term=st
 [[ $- != *i* ]] && return
 alias ls='ls --color=auto'
 
