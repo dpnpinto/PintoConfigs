@@ -86,7 +86,7 @@ Se pretendermos ter uma /home separado
 
 ## Instalar o pacotes base do Arch
 
-* **pacstrap -K /mnt base base-devel linux linux-firmware vim NetworkManager xpto-ucode**
+* **pacstrap -K /mnt base base-devel linux linux-firmware vim networkmanager xpto-ucode**
 * -K inicia as chaves do pacman e não utiliza as do host de instalação
 Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kernel Linux padrão do Arch, o firmware para hardware comum, o editor de texto “vim” e o NetworkManager
 * linux - instala o kernel estável (http://www.kernel.org). Pode-se instalar outro tipo, por exemplo o Zen Kernel, com **linux-zen**.
@@ -150,6 +150,9 @@ Conferir se a data ficou correta
 
 * **useradd -m -g users -G wheel,storage,power -s /bin/bash nomedoutilizador**
 * **passwd nomedoutilizador** (colocar palavra passe nesse utilizador)
+* Editar o **pacman.conf** em /etc e colocar:
+- ParallelDownloads = 5 (descarregar 5 ficheiros em paralelo
+- ILovoCandy (para ficar em modo pacman C-o-)
 
 ## Instalar pacotes uteis
 
