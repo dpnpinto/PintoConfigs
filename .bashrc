@@ -4,7 +4,7 @@
 # bash by dpnpinto@gmail.com
 
 # The best Terminal Emu
-export term=st
+export TERM=st
 
 # [[ $- != *i* ]] && return
 
