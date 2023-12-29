@@ -33,4 +33,5 @@ function parse_git_branch {
 }
 
 PS1='\[$(tput setaf 2)\]\u\[$(tput setaf 1)\]@\[$(tput setaf 3)\]\h \[$(tput setaf 6)\]\w\[$(tput sgr0)\] $(parse_git_branch)'
+export PS1
 
