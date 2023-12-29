@@ -1,6 +1,5 @@
 #!/bin/sh
 setxkbmap pt &
-xrdb ~/.Xresources &
+# xrdb ~/.Xresources &
 nitrogen --restore &
-urxvtd --quiet --opendisplay --fork &
-exec spectrwm
+exec dwm
