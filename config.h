@@ -23,6 +23,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
+static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
