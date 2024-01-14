@@ -22,13 +22,16 @@ sudo pacman -S base-devel libX11-devel libXft-devel libXinerama-devel freetype-d
 
 git clone https://git.suckless.org/dwm
 git clone https://git.suckless.org/st
+git clone https://git.suckless.org/dmenu
 
 ### Do site, recorrendo a instlação do firefox ou utilizando o curl
 
 Se intalar firefox efetua xinit /bin/firefox
 curl -O https://dl.suckless.org/dwm/dwm-XXX.tar.gz
 curl -O https://dl.suckless.org/st/st-XXX.tar.gz
-Nota: substituir o XXX pela versão disponivel
+curl -O https://dl.suckless.org/tools/dmenu-XXX.tar.gz
+Nota: substituir o XXX pela versão disponivel online
+
 
 
 https://lecorbeausvault.wordpress.com/2020/04/08/install-guide-suckless-dwm-with-st-and-dmenu/
