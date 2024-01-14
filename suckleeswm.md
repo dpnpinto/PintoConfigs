@@ -32,6 +32,11 @@ curl -O https://dl.suckless.org/st/st-XXX.tar.gz
 curl -O https://dl.suckless.org/tools/dmenu-XXX.tar.gz
 Nota: substituir o XXX pela versão disponivel online
 
+### Só mais umas coisas para ficar ao meu gosto
 
+Instalar o rofi, o picom e o nitrogen
+
+sudo pacman -S rofi picom nitrogen
+sudo xbps-install -S rofi picom nitrogen
 
 https://lecorbeausvault.wordpress.com/2020/04/08/install-guide-suckless-dwm-with-st-and-dmenu/
