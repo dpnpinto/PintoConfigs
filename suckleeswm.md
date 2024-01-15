@@ -1,7 +1,7 @@
 # Instalar um ambiente gráfico minimalista tanto no VOID Linux como no Arch
 ## Utilizo o Arch Linux para plataformas X64 mas para 32bit em arm utilizo o Void Linux
 
-##Instalar o Xorg
+## Instalar o Xorg
 
 - sudo xbps-install -S xorg xinit
 - sudo pacman -S xorg xorg-xinit
