@@ -26,7 +26,7 @@
 
 ### Do site, recorrendo a instlação do firefox ou utilizando o curl
 
-#### Se intalar firefox efetua xinit /bin/firefox
+#### Se intalar firefox efetuar a eecução por xinit /bin/firefox
 - curl -O https://dl.suckless.org/dwm/dwm-XXX.tar.gz
 - curl -O https://dl.suckless.org/st/st-XXX.tar.gz
 - curl -O https://dl.suckless.org/tools/dmenu-XXX.tar.gz
