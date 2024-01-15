@@ -4,7 +4,7 @@
 ##Instalar o Xorg
 
 sudo xbps-install -S xorg xinit
-sudo pacman -S xorg xinit
+sudo pacman -S xorg xorg-xinit
 
 ## Instalar a ferramentas para descarregar e compliar as ferramentas SuckLess
 
