@@ -4,8 +4,8 @@
 # By dpnpinto based on SuckLess
 
 # Windows Manager
-git clone 
+git clone https://github.com/dpnpinto/PintoDWBlocks.git
 # Terminal emulation
-git clone
+git clone https://github.com/dpnpinto/PintoDTW.git
 # Status Bar
-git clone
+git clone https://github.com/dpnpinto/PintoST.git
