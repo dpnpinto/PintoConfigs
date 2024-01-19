@@ -2,6 +2,6 @@
 setxkbmap pt &
 #xrdb ~/.Xresources &
 nitrogen --restore &
-slstatus &
+#slstatus &
 picom &
 exec dwm
