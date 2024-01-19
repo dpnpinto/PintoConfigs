@@ -1,4 +1,4 @@
-
+#!/bin/bash
 #My start X
 
 cp .xinitrc ..
