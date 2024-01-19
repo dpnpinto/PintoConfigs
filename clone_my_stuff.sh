@@ -1,8 +1,9 @@
-
-
-#gestor de janelas
+#!/bin/bash
+# Minimal grafica stuff that I use
+# By dpnpinto based on SuckLess
+# Windows Manager
 git clone 
-#Emulador de Terminal
+# Terminal emulation
 git clone
-#Barra de estatdo
+# Status Bar
 git clone
