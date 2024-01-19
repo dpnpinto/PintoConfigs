@@ -6,6 +6,6 @@
 # Windows Manager
 git clone https://github.com/dpnpinto/PintoDWBlocks.git
 # Terminal emulation
-git clone https://github.com/dpnpinto/PintoDTW.git
+git clone https://github.com/dpnpinto/PintoDWM.git
 # Status Bar
 git clone https://github.com/dpnpinto/PintoST.git
