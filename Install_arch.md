@@ -221,7 +221,7 @@ Conferir se a data ficou correta
 
 * Editar o pacman.conf (está dentro do /etc) **sudo vim /etc/pacman.conf**
 * Ir até # Misc options
-*
+
 * Color (tirar o # para ficar com cores)
 * VerbosePkgLists (tirar o # para detlhar os pacotes)
 * ParallelDownloads=5  (tirar o # para descarreagar em apralelo 5 pacotes)
