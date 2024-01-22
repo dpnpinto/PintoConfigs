@@ -217,6 +217,14 @@ Conferir se a data ficou correta
 * Pode confirmar que já tem este repositório com **pacman -Sy**
 * Pode ver os pacotes do repositorio MultiLib com **pacman -Sl multilib**
 
+### melhorar o PACMAN
+
+* Editar o pacman.conf (está dentro do /etc) **sudo vim /etc/pacman.conf**
+* Color
+* VerbosePkgLists
+* ParallelDownloads=5
+* ILoveCandy
+
 ### ATivar o TRIM nos discos SSD
 
 * Este serviço faz parte do pacote util-linux
