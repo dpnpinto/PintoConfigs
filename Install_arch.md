@@ -220,10 +220,12 @@ Conferir se a data ficou correta
 ### melhorar o PACMAN
 
 * Editar o pacman.conf (está dentro do /etc) **sudo vim /etc/pacman.conf**
-* Color
-* VerbosePkgLists
-* ParallelDownloads=5
-* ILoveCandy
+* Ir até # Misc options
+*
+* Color (tirar o # para ficar com cores)
+* VerbosePkgLists (tirar o # para detlhar os pacotes)
+* ParallelDownloads=5  (tirar o # para descarreagar em apralelo 5 pacotes)
+* ILoveCandy (Adicionar para ficar com o efeito do jogo pacman) 
 
 ### ATivar o TRIM nos discos SSD
 
@@ -241,7 +243,6 @@ Conferir se a data ficou correta
 * xorg-xinit - para arrancar o ambiente grafico **startx** recorrendo ao ficheiro .xinitrc
 * No caso do Virtuabox instalar **sudo pacman -S virtualbox-guest-utils open-vm-tools xf86-video-vmware**
 * **cp /etc/X11/xinit/xinitrc ~/.xinitrc** start do X e ambiente de janelas pretendido
-
 
 ### Não é necessário ter um display manager para arrancar com o ambiente gráfico
 
@@ -284,4 +285,3 @@ automatizar o arranque de determinados serviços.
 * **sudo pacman -S xorg-server xorg-apps xorg-xinit** Instalr o servidor grafico xorg.server e os pacotes do xorg-apps e o xorg-xinit
 * **sudo pacman -S i3-wm**
 * **i3-config-wizard**
-
