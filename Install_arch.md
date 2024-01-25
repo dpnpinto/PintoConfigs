@@ -152,7 +152,7 @@ Conferir se a data ficou correta
 * **passwd nomedoutilizador** (colocar palavra passe nesse utilizador)
 * Editar o **pacman.conf** em /etc e colocar:
 - ParallelDownloads = 5 (descarregar 5 ficheiros em paralelo
-- ILovoCandy (para ficar em modo pacman C-o-)
+- ILoveCandy (para ficar em modo pacman C-o-)
 
 ## Instalar pacotes uteis
 
