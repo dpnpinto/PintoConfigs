@@ -36,7 +36,7 @@ Nota: substituir o XXX pela versão disponivel online
 
 #### Instalar o rofi, o picom e o nitrogen
 
-- sudo pacman -S rofi picom nitrogen
-- sudo xbps-install -S rofi picom nitrogen
+- sudo pacman -S rofi picom nitrogen lxappearance
+- sudo xbps-install -S rofi picom nitrogen lxappearance
 
 https://lecorbeausvault.wordpress.com/2020/04/08/install-guide-suckless-dwm-with-st-and-dmenu/
