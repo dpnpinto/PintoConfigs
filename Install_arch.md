@@ -283,3 +283,8 @@ automatizar o arranque de determinados serviços.
 * **sudo pacman -S xorg-server xorg-apps xorg-xinit** Instalr o servidor grafico xorg.server e os pacotes do xorg-apps e o xorg-xinit
 * **sudo pacman -S i3-wm**
 * **i3-config-wizard**
+
+### Special stuff
+
+* pacman -S figlet banner toilet cawsay
+* Chosse one
