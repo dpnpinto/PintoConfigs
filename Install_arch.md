@@ -1,17 +1,5 @@
 # How to make a basic spectr-wm Arch Install - After boot from the oficial Arch ISO
 
- ______________________________
-< Pinto Arch My install of Arch >
- ------------------------------
-#   \
-#    \
-#        .--.
-#       |o_o |
-#       |:_/ |
-#      //   \ \
-#     (|     | )
-#    /'\_   _/`\
-#    \___)=(___/
 
 ## Consultar sempre a Arch Wiki para confirmação das opção disponiveis
 
