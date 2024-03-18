@@ -3,7 +3,7 @@
 #
 #   modules=($(awk '{print $1}' /proc/modules)):
 #       Utiliza o comando awk para extrair a primeira coluna (coluna $1) da saida do arquivo /proc/modules.
-#       Os módulos do kernel estão designados neste arquivo, e esta línha está extraindo os seus nomes e a almazenalos num array chamado modules.
+#       Os módulos do kernel estão designados neste arquivo, e esta línha está extraindo os seus nomes e a colocar os nomes num array chamado modules.
 #
 #    for hw in $(hwdetect --show-modules | awk -F: '{gsub("-","_"); print $2}'); do:
 #    Utiliza o comando hwdetect --show-modules para listar os módulos de hardware detetados.
