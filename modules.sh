@@ -1,5 +1,5 @@
 #!/bin/bash
-# Explained by https://dpnpinto.github.com
+# Explained by https://dpnpinto.github.io
 #
 #   modules=($(awk '{print $1}' /proc/modules)):
 #       Utiliza o comando awk para extrair a primeira coluna (coluna $1) da saida do arquivo /proc/modules.
