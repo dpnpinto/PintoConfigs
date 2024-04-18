@@ -289,6 +289,7 @@ automatizar o arranque de determinados serviços.
 ### Instalar o PipeWire (melhor que o Pulseaudio)
 
 * **sudo pacman -S pipewire pipewire-jack pipewire-alsa pipewire-pulse qjackctl**
+* **sudo pacman -S lib32-pipewire lib32-pipewire-jack** para suporte multilib
 * For noire canceelation easy efects is the way then **sudo pacman -S easyeffects**
 * https://wiki.archlinux.org/title/PipeWire
 * https://www.youtube.com/watch?v=5a7_2mA2LYQ
