@@ -1,6 +1,6 @@
 # How to make a DWM Arch Install - After boot from the oficial Arch ISO
 
-## Automatica Install here
+## Meinha versão de instalação automatizada do Arch
 
 PintArch.sh disponivel em https://github.com/dpnpinto/PintArch 
 
