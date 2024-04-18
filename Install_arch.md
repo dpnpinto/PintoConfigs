@@ -1,6 +1,8 @@
-# How to make a basic spectr-wm Arch Install - After boot from the oficial Arch ISO
+# How to make a DWM Arch Install - After boot from the oficial Arch ISO
 
-Pinto Arch
+## Automatica Install here
+
+PintArch.sh disponivel em https://github.com/dpnpinto/PintArch 
 
 ## Consultar sempre a Arch Wiki para confirmação das opção disponiveis
 
