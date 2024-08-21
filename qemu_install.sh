@@ -1,6 +1,6 @@
 sudo pacman -Syy
 sudo pacman -S archlinux-keyring
-sudo pacman -S qemu-full libvirt 
+sudo pacman -S qemu-full libvirt virt-manager
 
 sudo pacman -S ebtables iptables
 sudo pacman -S libguestfs
