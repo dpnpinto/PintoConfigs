@@ -9,4 +9,5 @@ nmcli con add type bridge ifname br0 con-name br0-con # to add a bridge named br
 nmcli con add type bridge-slave ifname "you network interface name" master br0 # add your fisical network as  master interface of your br0
 nmcli con up br0-con  # bring bridge up
 nmcli con down "The other conection" # put the other down
+nmcli con delete "The other conection" # delete the other conetion
 sudo nmcli con modify br0 bridge.stp no # disable stp in the bridge 
