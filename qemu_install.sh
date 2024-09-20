@@ -2,7 +2,7 @@ sudo pacman -Syy
 sudo pacman -S archlinux-keyring
 sudo pacman -S qemu-full libvirt virt-manager
 sudo systemctl enable libvirtd.socket
-sudo systemctl start libvirtd.socket # use socket for wokstation you do not need to define permission
+sudo systemctl start libvirtd.socket # use sockets for wokstation you do not need to define permission and don't allways your service runing
 # Setup you network as a bdidge to conect all VM and easy acess
 # Create a bridge out for the Qemu. Then you can conect you VM's to that bridge and manage them on your local network with the same subnet.
 nmcli con show # To see you conections
