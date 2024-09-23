@@ -5,7 +5,7 @@ lsblk
 pvs 
 ## after this for example if the logic partition is in sda2 lets set more space to sda
 parted /dev/sda
-Note: use p to se partitions and resizepart to resie it "resizepart 2 100%" (to get all space to part 2)
+Note: use p to see partitions and resizepart to resie it "resizepart 2 100%" (to get all space to part 2)
 ## The partition is done lets resise now the fisical volume the in this example is sda2
 pvresize /dev/sda2
 ## Ok, now just look at the name of the logical volumes with
