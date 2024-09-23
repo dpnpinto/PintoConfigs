@@ -3,7 +3,7 @@
 lsblk 
 ## just to confirm that the logic volume is in sdx
 pvs 
-## after this for example if the logic partition is in sda2 lets get more space to sda
+## after this for example if the logic partition is in sda2 lets set more space to sda
 parted /dev/sda
 Note: use p to se partitions and resizepart to resie it "resizepart 2 100%" (to get all space to part 2)
 ## The partition is done lets resise now the fisical volume the in this example is sda2
