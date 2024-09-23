@@ -17,7 +17,6 @@ Job done ;)
 # Take a look at:
 
 - lsblk - https://www.man7.org/linux/man-pages/man8/lsblk.8.html
-- parted - https://www.man7.org/linux/man-pages/man8/parted.8.html
 - pvs - https://www.man7.org/linux/man-pages/man8/pvs.8.html 
 - parted - https://man7.org/linux/man-pages/man8/parted.8.html
 - pvresize - https://man7.org/linux/man-pages/man8/pvresize.8.html
