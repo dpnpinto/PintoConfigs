@@ -16,10 +16,10 @@ Job done ;)
 
 # Take a look at:
 
-pvs - https://www.man7.org/linux/man-pages/man8/pvs.8.html 
-parted - https://man7.org/linux/man-pages/man8/parted.8.html
-pvresize - https://man7.org/linux/man-pages/man8/pvresize.8.html
-lvdisplay - https://man7.org/linux/man-pages/man8/lvdisplay.8.html
-lvresize - https://man7.org/linux/man-pages/man8/lvresize.8.html
+. pvs - https://www.man7.org/linux/man-pages/man8/pvs.8.html 
+- parted - https://man7.org/linux/man-pages/man8/parted.8.html
+. pvresize - https://man7.org/linux/man-pages/man8/pvresize.8.html
+. lvdisplay - https://man7.org/linux/man-pages/man8/lvdisplay.8.html
+. lvresize - https://man7.org/linux/man-pages/man8/lvresize.8.html
 
  
