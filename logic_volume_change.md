@@ -1,4 +1,4 @@
-# I do this more often in my servers with rocky, but the situatio is the same with all distributions
+# I do this more often in my servers with Rocky Linux, but the situatio is the same with all distributions
 ## To see the partition, fisical and logical disks
 lsblk 
 ## just to confirm that the logic volume is in sdx
@@ -16,6 +16,8 @@ Job done ;)
 
 # Take a look at:
 
+- lsblk - https://www.man7.org/linux/man-pages/man8/lsblk.8.html
+- parted - https://www.man7.org/linux/man-pages/man8/parted.8.html
 - pvs - https://www.man7.org/linux/man-pages/man8/pvs.8.html 
 - parted - https://man7.org/linux/man-pages/man8/parted.8.html
 - pvresize - https://man7.org/linux/man-pages/man8/pvresize.8.html
