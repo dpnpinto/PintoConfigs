@@ -1,5 +1,5 @@
 # I do this more often in my servers with rocky, but the situatio is the same with all distributions
-##To see the partition, fisical and logical disks
+## To see the partition, fisical and logical disks
 lsblk 
 ## just to confirm that the logic volume is in sdx
 pvs 
