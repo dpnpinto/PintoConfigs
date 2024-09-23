@@ -8,4 +8,4 @@ sudo usermod -aG lp $USER
 sudo systemctl enable cups.socket
 sudo systemctl start cups.socket
 # Install a visual configuration of the printer
-sudo pacman -S system-conmfig-printer
+sudo pacman -S system-config-printer
