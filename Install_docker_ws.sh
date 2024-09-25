@@ -7,3 +7,5 @@ sudo systemctl start docker.socket
 # just add the user to docker goup
 newgrp docker
 sudo usermod -aG docker $USER
+# then install docker compose
+sudo pacman -S docker-compose
