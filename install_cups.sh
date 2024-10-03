@@ -1,5 +1,4 @@
-
-
+#!/bin/bash
 # install cups
 sudo pacman -S cups
 # add current user to lp (local print) group
