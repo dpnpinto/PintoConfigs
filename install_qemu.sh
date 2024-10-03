@@ -1,4 +1,4 @@
-#!
+#!/bin/bash
 sudo pacman -Syy
 sudo pacman -S archlinux-keyring
 sudo pacman -S qemu-full libvirt virt-manager dmidecode
