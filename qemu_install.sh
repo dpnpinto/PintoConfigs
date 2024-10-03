@@ -2,7 +2,7 @@ sudo pacman -Syy
 sudo pacman -S archlinux-keyring
 sudo pacman -S qemu-full libvirt virt-manager dmidecode
 # dmidecode it is only for libvirt know about your system
-# if you want to make nat network install the dnsmask and start the service to have DNS and DHCP localy
+# if you whant to use  NAT network install the dnsmask and start the service to have DNS and DHCP in your machine to hava NAT network
 sudo systemctl enable libvirtd.socket
 sudo systemctl start libvirtd.socket # use sockets for wokstation you do not need to define permission and don't have allways your service runing
 # Setup you network as a bdidge to conect all VM and easy acess
