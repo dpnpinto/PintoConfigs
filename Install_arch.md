@@ -297,4 +297,4 @@ automatizar o arranque de determinados serviços.
 ### Special stuff
 
 * pacman -S figlet banner toilet cawsay
-* Chosse one
+* Choose one
