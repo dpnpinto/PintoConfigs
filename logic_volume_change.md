@@ -1,17 +1,18 @@
 # I do this more often in my servers with Rocky Linux, but the situation is the same with all distributions
 ## To see the partition, the fisical and logical disks
 lsblk 
-## just to confirm that the logic volume is in sd**x**
+## Just to confirm that the logic volume is in sd**x**
 pvs 
-## after this for example if the logic partition is in sda2 lets set more space to sda
+## After this, for example if the logic partition is in sda2, lets set more space to sda
 **parted /dev/sda**
 Note: use **p** to see partitions and **resizepart** to resie it "**resizepart 2 100%**" (to get all space to part 2)
-## The partition is done lets resise now the fisical volume the in this example is sda2
+## The partition is done, lets resise, now, the fisical volume, in this example is sda2
 **pvresize /dev/sda2**
 ## Ok, now just look at the name of the logical volumes with
 **lvdisplay**
-### Now it is time to finaly resize the logical volume
+### Finaly it is time to resize the logical volume
 **lvresize --extents +100%FREE --resizefs  "The name of the logic volume"**
+
 Job done ;)
 
 # Take a look at:
