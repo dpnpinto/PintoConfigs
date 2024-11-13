@@ -1,4 +1,4 @@
-# Easy way how to roll back a package with bugs in Arch
+# Easy way how to roll back a package with bug's in Arch
 
 ## By https://dpnpinto.github.io
 
