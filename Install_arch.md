@@ -92,11 +92,12 @@ Neste passo, instalaremos o metapacote base e o grupo base-devel, além do kerne
 * xpto-ucode intel-ucode/amd-ucode - atualziações de estabilidade e segurança da Intel/AMD 
 * Se necessário atualizar as chaves
 
-    pacman -Syy
-    pacman -S archlinux-keyring
-    pacman-key --populate archlinux
-    pacman-key --populate archlinux32 (apenas para o de 32 bit)  
-    pacman-key --refresh-keys
+    - pacman -Syy
+    - pacman -S archlinux-keyring
+    - pacman-key --populate archlinux
+    - pacman-key --populate archlinux32 (apenas para o de 32 bit)
+    - pacman -S archlinux32-keyring (apenas para o de 32 bit)
+    - pacman-key --refresh-keys
     - Desativar a verificação (Arch32) colocar 'SigLevel = Never' em /etc/pacman.conf 
 
 
