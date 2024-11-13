@@ -3,7 +3,7 @@
 ## By https://dpnpinto.github.io
 
 - Uninstall the package that give you problems **sudo pacman -S package_name**
-- Install the older version from Arch Archives https://archive.archlinux.org
+- Install the older version from Arch Archives https://archive.archlinux.org **sudo pacman -U PAcket_path_to_older_package_name**
 - Ignore the update of that package until they resolve the problem:
   - In the **pacman.conf** put the package in the **IgnorePkg = Package_name**
 
