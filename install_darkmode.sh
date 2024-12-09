@@ -1,9 +1,10 @@
 #!/bin/bash
-# Adk mode by by dpnpinto.github.io 
+# dark mode in GTK and QT by dpnpinto.github.io 
 #install in both gtk and qt
-#first install manager
+#first install gtk and qt managers
 sudo pacman -S lxappearance qt6ct
-# insall same template to gtk an qt
+# install same template to gtk an qt
 sudo pacman  -S breeze breeze-gtk
 # config qt variable
 echo export QT_QPA_PLATFORMTHEME=\"qt6ct\" >> /etc/environment
+echo You are ready to use Breeze template in both gtk and qt, have fun ;)
