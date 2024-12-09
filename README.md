@@ -5,3 +5,4 @@
 - .bash_profile - Arranca com perfil do utilizador
 - .bashrc - Meu ficheiro de config do bash
 - .xinitrc - Inicia X com as aplicações que utilizo
+- Install_docker_ws.sh - Instalação do Docker e Docker Compose
