@@ -3,4 +3,3 @@
 
 .bashrc - Meu ficheiro de config do bash
 .xinitrc - Iniciação do X com as aplicações que utilizo
-
