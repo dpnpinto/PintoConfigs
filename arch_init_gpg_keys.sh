@@ -1,3 +1,5 @@
+#!/bin/bash
+# resintall gpg keys
 #remove gnupg dir
 sudo rm -rf /etc/pacman.d/gnupg
 # init local keys
