@@ -12,4 +12,4 @@
 - install_qemu.sh - Instalar o qemu e gestor de maquinas virtuais
 - install_wireshark.sh - Instalar o software Wireshark
 - install_yay.sh - Instalar o YAY para gestão do AUR
-- install_Chaotic_aur.sh - Instalr o repositório do achaotic AUR
+- install_Chaotic_aur.sh - Instalar o repositório Chaotic AUR
