@@ -11,3 +11,4 @@
 ## varibles and other software
 - Firefox and Chromium: pacman -S --needed firefox chromium
 - For firefox run  in waylan: /etc/environment and put this variable MOZ_ENABLE_WAYLAND=1
+- for NVIDIA this variables must be set: GBM_BACKEND=nvidia-drm __GLX_VENDOR_LIBRARY_NAME=nvidia
