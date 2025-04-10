@@ -12,4 +12,4 @@
 - cd 'softwarename'
 - makepkg -si
 
-### Nota: grarantir que tens o base-devel e o git -» sudo pacman -Sy base-devel git
+### Nota: garantir que tens o base-devel e o git -» sudo pacman -Sy base-devel git
