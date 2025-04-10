@@ -4,7 +4,7 @@
 
 - yay -S 'softwarename'
 
-### Nota: para instalar o yay ver ou correr -» https://github.com/dpnpinto/my_configs/install_yay.sh
+### Nota: para instalar o yay ver ou correr -» install_yay.sh
 
 ## Com instalação manual:
 
