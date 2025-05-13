@@ -1,7 +1,7 @@
 #!/bin/sh
 setxkbmap pt &
 #xrdb ~/.Xresources &
-nitrogen --restore &
+feh --bg-scale ~/.config/backimg/space_arch.png &
 dwmblocks &
 picom &
 exec dwm
