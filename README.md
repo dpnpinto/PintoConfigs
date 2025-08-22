@@ -6,7 +6,7 @@
 - .bashrc - Meu ficheiro de config do bash
 - .xinitrc - Inicia X com as aplicações que utilizo
 - install_darkmode.sh - Instalar software de gest qt e gtk e template breeze para ambos
-- Install_docker.sh - Instalação do Docker e Docker Compose
+- install_docker.sh - Instalação do Docker e Docker Compose
 - arch_init_gpg_keys.sh - Iniciar novamente todas as chaves pgp
 - install_cups.sh - Instalar servidor de impressão e gestor gui
 - install_qemu.sh - Instalar o qemu e gestor de maquinas virtuais
