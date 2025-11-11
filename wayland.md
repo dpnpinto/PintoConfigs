@@ -1,4 +1,4 @@
-# Install Wayland in Arch Linux
+# Install Wayland on Arch Linux
 ## Install Wayland
 - Verify if it is instaled pacman -Qi wayland
 - If not then install wayland sudo pacman -S --needed wayland
