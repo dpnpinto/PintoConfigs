@@ -1,8 +1,11 @@
 #!/bin/bash
-sudo pacman -Syy
-sudo pacman -S archlinux-keyring
+# sudo pacman -Syy # update Your system
+# sudo pacman -S archlinux-keyring # update your keys
 sudo pacman -S qemu-full libvirt virt-manager dmidecode
-# dmidecode it is only for libvirt know about your system
+# quemu-full - Quemu with all bells and whistles
+# libvirt - Toolkit for virtualization
+# dmidecode  -it is only for libvirt know about your system
+# virt-manager - If you need GUI
 # if you whant to use  NAT network install the dnsmask and start the service to have DNS and DHCP in your machine to hava NAT network
 sudo systemctl enable libvirtd.socket
 sudo systemctl start libvirtd.socket # use sockets for wokstation you do not need to define permission and don't have allways your service runing
