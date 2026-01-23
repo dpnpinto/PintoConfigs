@@ -1,7 +1,7 @@
 #!/bin/bash
 # sudo pacman -Syy # update Your system
 # sudo pacman -S archlinux-keyring # update your keys
-sudo pacman -S qemu-full libvirt virt-manager dmidecode
+sudo pacman -S qemu-full libvirt dmidecode virt-manager 
 # quemu-full - Quemu with all bells and whistles
 # libvirt - Toolkit for virtualization
 # dmidecode  -it is only for libvirt know about your system
