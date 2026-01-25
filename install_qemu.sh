@@ -24,4 +24,4 @@ sudo systemctl start libvirtd.socket # use sockets for wokstation you do not nee
 # nmcli con modify br0-con bridge.stp no # disable stp in the bridge to get fast dhcp config of the 
 # nmcli con up br0-mslave  # bring bridge slave conection up
 # nmcli con up br0-con  # bring bridge conection up
-# nmcli con delete "The defaul fisical conection" # crean the other conection # restore deault conection
+# nmcli con delete "The defaul fisical conection" # crean the other conection 
